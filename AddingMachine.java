@@ -2,10 +2,11 @@ package cse360assignment02;
 
 public class AddingMachine {
   private int total;//private variable total
-  String str="0";
+  String str;
   
   public AddingMachine () {
     total = 0;  // not needed - included for clarity
+    str=new String("0");
   }
   
   public int getTotal () {
